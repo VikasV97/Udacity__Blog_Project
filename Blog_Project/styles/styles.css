@@ -1,0 +1,58 @@
+@import url("page_styles/indexstyles.css");
+
+/*Mobile medium*/
+@media (min-width: 375px) and (max-width: 399px) {
+  .maingrid {
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    padding-right: 50px;
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-areas:
+      "main"
+      "main"
+      "main"
+      "main"
+      "main"
+      "main";
+  }
+  img {
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  .container {
+    width: 95%;
+  }
+}
+
+/* Mobile small*/
+@media (min-width: 320px) and (max-width: 374px) {
+  .maingrid {
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    padding-right: 50px;
+    width: 90%;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+    grid-template-areas:
+      "main"
+      "main"
+      "main"
+      "main"
+      "main"
+      "main";
+  }
+
+  img {
+    width: 200px;
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  .container {
+    width: 95%;
+  }
+}

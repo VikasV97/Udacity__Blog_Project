@@ -1,0 +1,54 @@
+.flex-container{
+    display: flex;
+    background-color:  rgb(123, 202, 255);
+}
+
+.flex-container > div{
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    background-color: grey;
+}
+
+.flex-container2{
+    display: flex;
+    background-color:  rgb(165, 216, 250);
+    flex-direction: row;
+    height: 100%;
+}
+
+
+
+.card1 {
+    padding: 20px;
+    box-shadow: 0 6px 12px 0 grey;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+  
+  .subhead {
+    color: rgb(88, 85, 85);
+    font-size: 25px;
+}
+  
+  .card1 button {       
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;    
+    width: 100%;
+    font-size: 20px;
+}
+  
+  .card1 button:hover {
+    opacity: 0.5;
+}
+
+  a{
+      text-decoration: none;
+      color: black;
+}
